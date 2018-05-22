@@ -1,0 +1,46 @@
+
+div{
+    border: 1.5px solid black;
+    Background-color: rgba(13, 228, 228, 0.849);
+}
+div.ex1{
+    padding: 25px 50px 75px 100px
+}
+.info{
+    font-weight: bold;
+}
+.input{
+    font-weight: normal;
+}
+/* td{
+    padding: 5px;
+} */
+
+table{
+    border: 1.5px solid black;
+}
+.profile td:nth-child(2){
+    border-bottom: 1.5px solid black;
+} 
+.MosaP{
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+
+.flex-container{
+    display: flex;
+    background-color:turquoise;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+#child{
+    border: 0px transparent;
+    background: transparent;
+}
+
+img{
+    border-radius: 50%;
+}

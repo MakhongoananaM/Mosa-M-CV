@@ -1,7 +1,10 @@
 
 div{
-    border: 1.5px solid black;
-    Background-color: rgba(13, 228, 228, 0.849);
+    background-color: navy;
+}
+div{
+    border: 1.5px solid rgb(18, 110, 5, 0.699);
+    Background-color: rgba(131, 236, 12);
 }
 div.ex1{
     padding: 25px 50px 75px 100px
@@ -17,10 +20,10 @@ div.ex1{
 } */
 
 table{
-    border: 1.5px solid black;
+    border: 1.5px solid rgba(18, 110, 5, 0.699);
 }
 .profile td:nth-child(2){
-    border-bottom: 1.5px solid black;
+    border-bottom: 1.5px solid white;
 } 
 .MosaP{
     display: block;
@@ -31,7 +34,7 @@ table{
 
 .flex-container{
     display: flex;
-    background-color:turquoise;
+    background-color:rgb(131, 236, 12);
     justify-content: space-evenly;
     padding: 5px;
 }
@@ -43,4 +46,16 @@ table{
 
 img{
     border-radius: 50%;
+}
+.text-shadow {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.wrapper{ 
+    background: navy;
+}
+.body{
+    width: 50%;
+    margin: 0 auto;
 }

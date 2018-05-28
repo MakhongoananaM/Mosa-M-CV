@@ -1,11 +1,11 @@
+.float {
+    float: left;
+    display: block;
+    height: 100%;
+    background-color:white;
+}
 
-div{
-    background-color: navy;
-}
-div{
-    border: 1.5px solid rgb(18, 110, 5, 0.699);
-    Background-color: rgba(131, 236, 12);
-}
+
 div.ex1{
     padding: 25px 50px 75px 100px
 }
@@ -19,9 +19,7 @@ div.ex1{
     padding: 5px;
 } */
 
-table{
-    border: 1.5px solid rgba(18, 110, 5, 0.699);
-}
+
 .profile td:nth-child(2){
     border-bottom: 1.5px solid white;
 } 
@@ -34,26 +32,25 @@ table{
 
 .flex-container{
     display: flex;
-    background-color:rgb(131, 236, 12);
+    background-color: whitesmoke;
     justify-content: space-evenly;
     padding: 5px;
 }
 
-#child{
-    border: 0px transparent;
-    background: transparent;
-}
+
 
 img{
     border-radius: 50%;
 }
 .text-shadow {
     color: white;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 3px 3px 5px black;
 }
 
 .wrapper{ 
-    background: navy;
+    background:gray;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 5px;
 }
 .body{
     width: 50%;

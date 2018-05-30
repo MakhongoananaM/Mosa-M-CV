@@ -1,3 +1,12 @@
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color:green;
+
+}
 .float {
     float: left;
     display: block;
@@ -48,11 +57,14 @@ img{
 }
 
 .wrapper{ 
-    background:gray;
+    background: rgb(190, 183, 183);
     box-shadow: 2px 2px 3px black;
     border-radius: 5px;
 }
 .body{
     width: 50%;
     margin: 0 auto;
-}
+}    
+
+    
+  
